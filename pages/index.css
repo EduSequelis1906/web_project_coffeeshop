@@ -187,7 +187,8 @@
   background-size: cover;
   position: relative;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .reservation__form {
   display: flex;
@@ -196,9 +197,9 @@
   align-items: center;
   margin-bottom: 120px;
 }
-.title {
+.reservation__title {
   margin: 100px 0px 80px 0px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -247,7 +248,7 @@
   background-color: hsla(214, 84%, 56%, 0.7);
 }
 
-.label__checkbox {
+.label-checkbox {
   display: flex;
   justify-content: center;
   column-gap: 12px;
