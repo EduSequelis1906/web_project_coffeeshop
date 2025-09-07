@@ -156,7 +156,6 @@
   margin-top: 80px;
   position: absolute;
   top: 50%;
-
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -178,4 +177,98 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  /*text-align: left;*/
+  align-items: center;
+  margin-bottom: 120px;
+}
+.reservation__title {
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__fieldset {
+  margin-top: 80px;
+  max-width: 385px;
+}
+
+.form__label {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.input {
+  margin: 8px 0 32px 0;
+  height: 60px;
+  width: 100%;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 4px;
+}
+
+.submit {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  background-color: #2f80ed;
+}
+.submit:hover {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  background-color: hsla(214, 84%, 56%, 0.7);
+}
+
+.label__checkbox {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+}
+.form__checkbox-input {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  /*appearance: none;*/
+  background-color: #ffffff;
+}
+
+.form__checkbox-input:checked {
+  width: 20px;
+  height: 20px;
+  background-color: #2f80ed;
+  appearance: none;
+  /*border: 2px solid #fff;*/
+  content: url(../images/check.svg);
+  border-radius: 2px;
 }
