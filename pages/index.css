@@ -189,12 +189,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 }
 
 .reservation__title {
-  position: relative;
-  top: 100px;
+  padding-top: 100px;
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -206,14 +204,13 @@
 .reservation__form {
   /*text-align: left;*/
   font-family: "Inter", Arial, sans-serif;
+  margin: 0 auto 80px;
 }
 
 .fieldset {
   max-width: 385px;
-  position: relative;
   display: flex;
   flex-direction: column;
-  top: 180px;
   max-width: 385px;
 }
 
