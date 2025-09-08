@@ -191,18 +191,6 @@
   align-items: center;
 }
 
-.form {
-  font-family: "Inter", Arial, sans-serif;
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-}
-
-.reservation__form {
-  /*text-align: left;*/
-  align-items: center;
-  margin-bottom: 120px;
-}
 .reservation__title {
   /*position: relative;*/
   margin: 100px 0px 0px;
@@ -213,7 +201,17 @@
   line-height: 52px;
 }
 
-.fieldset {
+.reservation__form {
+  /*text-align: left;*/
+  margin-bottom: 120px;
+}
+
+.form__fieldset {
+  max-width: 385px;
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
   max-width: 385px;
 }
 
