@@ -206,7 +206,7 @@
   margin-bottom: 120px;
 }
 
-.form__fieldset {
+.fieldset {
   max-width: 385px;
   font-family: "Inter", Arial, sans-serif;
   display: flex;
