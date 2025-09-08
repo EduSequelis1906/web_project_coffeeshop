@@ -193,25 +193,25 @@
 
 .reservation__title {
   padding-top: 100px;
-  margin: 0;
+  margin-bottom: 80px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-top: 0px;
 }
 
 .reservation__form {
   /*text-align: left;*/
   font-family: "Inter", Arial, sans-serif;
-  margin: 0 auto 80px;
+  margin: 0 auto 120px;
+  max-width: 385px;
 }
 
-.fieldset {
-  max-width: 385px;
+.form {
   display: flex;
   flex-direction: column;
-  max-width: 385px;
 }
 
 .label {
