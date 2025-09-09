@@ -1,7 +1,6 @@
 .footer {
   background-color: #0a2850;
   position: relative;
-  z-index: -1;
   max-width: 100%;
   overflow: hidden;
   font-family: "Inter", Arial, sans-serif;
@@ -51,7 +50,7 @@
   list-style-type: none;
   margin-top: 20px;
 }
-.list__item {
+.footer__list-item {
   display: flex;
   column-gap: 10px;
   margin: 0 0 16px;
@@ -62,6 +61,7 @@
 }
 
 .social-link {
+  font-family: "Inter", Arial, sans-serif;
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
@@ -70,6 +70,7 @@
 }
 .social-link:hover {
   color: #c1c1c1;
+  cursor: pointer;
 }
 .footer__copyright {
   color: #ffffff;
