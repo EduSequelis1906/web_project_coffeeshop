@@ -3,14 +3,14 @@
   flex-direction: column;
 }
 
-.label {
+.form__label {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
 }
-.input {
+.form__input {
   margin: 8px 0 32px 0;
   height: 60px;
   width: 100%;
@@ -22,7 +22,7 @@
   border-radius: 4px;
 }
 
-.submit {
+.form__submit {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -32,7 +32,7 @@
   background-color: #2f80ed;
   color: #ffffff;
 }
-.submit:hover {
+.form__submit:hover {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -42,12 +42,12 @@
   background-color: hsla(214, 84%, 56%, 0.7);
 }
 
-.label-checkbox {
+.form__label-checkbox {
   display: flex;
   justify-content: center;
   column-gap: 12px;
 }
-.checkbox-input {
+.form__checkbox-input {
   width: 20px;
   height: 20px;
   border-radius: 2px;
@@ -55,7 +55,7 @@
   background-color: #ffffff;
 }
 
-.checkbox-input:checked {
+.form__checkbox-input:checked {
   width: 20px;
   height: 20px;
   background-color: #2f80ed;
