@@ -55,12 +55,12 @@
   column-gap: 10px;
   margin: 0 0 16px;
 }
-.social-icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
 }
 
-.social-link {
+.footer__social-link {
   font-family: "Inter", Arial, sans-serif;
   color: #ffffff;
   font-size: 16px;
@@ -68,7 +68,7 @@
   cursor: pointer;
   text-decoration: none;
 }
-.social-link:hover {
+.footer__social-link:hover {
   color: #c1c1c1;
   cursor: pointer;
 }
